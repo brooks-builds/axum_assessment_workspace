@@ -6,8 +6,4 @@ edition = "2021"
 # We'll need to update the Cargo.toml file to be aware that it's a workspace and what members it has
 
 [dependencies]
-doubler_crate = { path = "./doubler_crate" }
-sum_crate = { path = "./sum_crate" }
 
-[workspace]
-members = ["doubler_crate", "sum_crate"]

@@ -12,7 +12,7 @@ You will notice that you cannot see auto completions from Rust Analyzer in the s
 
 To pass the assessment you will need to do the following
 
-- Convert the root project into a Cargo workspace
+- Convert the root project into a Cargo workspace that includes the two sub crates, doubler_crate and sum_crate.
 
 With the server running, the tests can be run with the command cargo test. The tests ensure that the above requirements are passing. However they are some other requirements that are necessary to pass this assessment.
 
